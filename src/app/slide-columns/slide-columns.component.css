@@ -1,0 +1,13 @@
+.slides-container {
+  padding-bottom: 10px;
+}
+
+mat-grid-tile {
+  background: lightblue;
+  transition: 0.3s;
+}
+
+mat-grid-tile:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 10px;
+}

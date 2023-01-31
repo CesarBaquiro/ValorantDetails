@@ -1,0 +1,21 @@
+.card-container {
+  padding: 10px;
+}
+
+mat-card {
+  display: flex;
+  max-width: 800px;
+  color: aliceblue;
+  background-color: #292929;
+}
+
+mat-content {
+}
+
+img {
+  max-width: 300px;
+  height: 100%;
+}
+
+mat-card-content {
+}
