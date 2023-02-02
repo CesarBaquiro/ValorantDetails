@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +16,12 @@ import { SlideColumnsComponent } from './slide-columns/slide-columns.component';
 import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
-  declarations: [AppComponent, NavigatorComponent, SlideColumnsComponent, CardsComponent],
+  declarations: [
+    AppComponent,
+    NavigatorComponent,
+    SlideColumnsComponent,
+    CardsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -25,6 +31,7 @@ import { CardsComponent } from './cards/cards.component';
     MatGridListModule,
     MatSlideToggleModule,
     MatCardModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
